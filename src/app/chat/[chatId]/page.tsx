@@ -42,7 +42,7 @@ const ChatPage = async ({ params: { chatId } }: Props) => {
           <ChatSideBar chats={_chats} chatId={parseInt(chatId)} isPro={isPro} />
         </div>
         {/* pdf viewer */}
-        <div className="max-h-screen p-4 oveflow-scroll flex-[5]">
+        <div className="max-h-screen p-4 overflow-scroll flex-[5]">
         <Script nonce={nonce ?? '123'}
       />
           <PDFViewer pdf_url={currentChat?.pdfUrl || ""} />

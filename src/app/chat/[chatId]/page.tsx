@@ -35,7 +35,8 @@ const ChatPage = async ({ params: { chatId } }: Props) => {
   const nonce = headers().get('x-nonce');
 
   return (
-    <div className="flex max-h-screen overflow-scroll">
+  //zzz    <div className="flex max-h-screen overflow-scroll">
+    <div className="flex max-h-screen">
       <div className="flex w-full max-h-screen overflow-scroll">
         {/* chat sidebar */}
         <div className="flex-[1] max-w-xs">

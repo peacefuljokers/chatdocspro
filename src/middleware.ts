@@ -35,7 +35,7 @@ function middleware(request: NextRequest) {
 
 
 
-// This example protects all routes including api/trpc routes
+// This example protects all routes including api/trpc
 // Please edit this to allow other routes to be public as needed.
 // See https://clerk.com/docs/references/nextjs/auth-middleware for more information about configuring your middleware
 export default authMiddleware({

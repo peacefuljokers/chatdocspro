@@ -63,8 +63,18 @@ export default async function Home() {
               </Link>
             )}
           </div>
+
+
+           
         </div>
       </div>
+
+      <div className="fixed bottom-0 left-0 p-4">
+            <a href="mailto:contact@chatdocspro.com" className="text-slate-400 text-sm hover:underline">
+              Contact
+            </a>
+          </div>
     </div>
   );
 }
+//zzz added above link on contact email

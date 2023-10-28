@@ -53,7 +53,9 @@ export default async function Home() {
             {isAuth ? (
               <FileUpload />
             ) : (
-              <Link href="/sign-in">
+//zzz update this link to clerk sign in link https://accounts.chatdocspro.com/sign-in
+              //<Link href="/sign-in">
+              <Link href="https://accounts.chatdocspro.com/sign-in">
                 <Button>
                   Login to get Started!
                   <LogIn className="w-4 h-4 ml-2" />

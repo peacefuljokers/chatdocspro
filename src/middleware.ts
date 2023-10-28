@@ -10,7 +10,7 @@ function middleware(request: NextRequest) {
   const cspHeader = `
 
     default-src 'self' 'unsafe-inline' 'unsafe-eval' https://elegant-ferret-44.clerk.accounts.dev/ https://chatdocspro.s3.ap-southeast-1.amazonaws.com/;
-    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://elegant-ferret-44.clerk.accounts.dev/;
+    script-src 'self' 'unsafe-inline' 'unsafe-eval' https://elegant-ferret-44.clerk.accounts.dev/ https://clerk.chatdocspro.com/;
     style-src 'self' 'unsafe-inline';
     frame-src https://docs.google.com/;
     worker-src blob:;
